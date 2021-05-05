@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+header{
+    /* height: 25vh; */
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagenes/fondo_header.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+    
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    background-color: transparent;
+    
+}
+ul li{
+    margin: .5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .5em;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid; color:yellow;
+}
+.titulo_pagina{
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    font-size: 2rem;
+    
+}
+.texto-inicio{
+    color: white;
+    text-align: center;
+}
+.fotos-iniciales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2rem solid blue ;
+}
+.foto-y-texto1{
+    display: flex;
+    margin: 3rem;
+    color: blueviolet;
+    justify-content: center;
+}
+.texto-cerca-imagen{
+    margin: 1rem;
+    justify-content: flex-start;
+}
+.parte-final-index{
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+.paginas li{
+    display:flex;
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+.redes{
+    color: aqua;
+}
+.foto_rellenar{
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+
+}

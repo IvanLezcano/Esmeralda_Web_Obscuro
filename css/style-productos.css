@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+header{
+    /* height: 25vh; */
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../imagenes/fondo_header.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+    
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    background-color: transparent;
+    
+}
+ul li{
+    margin: .5em;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .5em;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid; color:yellow;
+}
+.titulo_pagina{
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    font-size: 2rem;
+    
+}
+.container{
+    padding: 1rem;
+    height: 100rem;
+    display: grid;
+    grid-template-areas:"uno dos tres" "uno cuatro cuatro""uno cuatro cuatro";
+    border: 1px solid black;
+    grid-gap: 0.8rem;
+
+}
+.s1{
+    background-color: red;
+    grid-area:uno ;
+}
+.s2{
+    background-color: blue;
+    grid-area:dos ;
+
+}
+.s3{
+    background-color: green;
+    grid-area:tres ;
+
+}
+.s4{
+    background-color: yellow;
+    grid-area:cuatro;
+
+}
+@media screen and (max-width:640px){
+    .container{
+        grid-template-areas: "tres tres tres""uno uno uno""dos dos dos";
+    }
+}
+
+.foto_rellenar{
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+
+}
+
+.paginas li{
+    display:flex;
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+.redes{
+    color: aqua;
+}
