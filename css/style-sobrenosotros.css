@@ -47,31 +47,6 @@ a{
     font-size: 2rem;
     
 }
-.texto-inicio{
-    color: white;
-    text-align: center;
-}
-.fotos-iniciales{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 0.2rem solid blue ;
-}
-.foto-y-texto1{
-    display: flex;
-    margin: 3rem;
-    color: blueviolet;
-    justify-content: center;
-}
-.texto-cerca-imagen{
-    margin: 1rem;
-    justify-content: flex-start;
-}
-.parte-final-index{
-    color: brown;
-    display: flex;
-    justify-content: center;
-}
 .paginas li{
     display:flex;
     padding-left:1rem;
@@ -87,6 +62,20 @@ a{
 body{
     background-color: black;
 }
+
+.videoYoutube{
+    display: flex; 
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 0px;
+    margin-top: 150px;
+	
+
+}
+
+
 footer{
     display: flex;
     justify-content: center;
