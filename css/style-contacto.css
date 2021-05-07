@@ -47,36 +47,7 @@ a{
     font-size: 2rem;
     
 }
-.texto-inicio{
-    color: white;
-    text-align: center;
-}
-.fotos-iniciales {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 0.2rem solid blue ;
-    
-}
-.imagendeinicio{
-    width: 5px;
-}
 
-.foto-y-texto1{
-    display: flex;
-    margin: 3rem;
-    color: blueviolet;
-    justify-content: center;
-}
-.texto-cerca-imagen{
-    margin: 1rem;
-    justify-content: flex-start;
-}
-.parte-final-index{
-    color: brown;
-    display: flex;
-    justify-content: center;
-}
 .paginas li{
     display:flex;
     padding-left:1rem;
@@ -100,9 +71,73 @@ body{
     padding: 2rem;
 }
 .formulario{
+    display: flex;
     color: aquamarine;
+   
     
 }
+.apartado{
+    text-align: center;
+    margin-top: 6rem;
+    
+}
+.textito{
+    margin-bottom: auto;
+    margin-left: 1rem;
+    
+}
+#nombre{
+    color: green;
+    margin: 1rem;
+    width: 30%;
+}
+#apellido{
+    color: green;
+    width: 30%;
+    margin-left: 2rem;  
+      
+    
+}
+#celular{
+    color: green;
+    width: 30%;
+    margin-left: 2rem;  
+    margin-bottom: 1rem;   
+
+}
+#Pais{
+    color: green;
+    width: 30%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;    
+}
+#Localidad{
+    color: green;
+    width: 30%;
+    margin-left: 2rem;    
+    margin-bottom: 1rem; 
+}
+#Domicilio{
+    color: green;
+    width: 30%;
+    margin-left: 2rem;   
+    margin-bottom: 1rem;  
+}
+#CP{
+    color: green;
+    width: 30%;
+    margin-left: 2rem;   
+    margin-bottom: 1rem;  
+}
+textarea {
+    margin-left: 2rem;   
+    margin-bottom: 1rem; 
+    vertical-align: top;
+    height:6rem;
+    width: 80%;
+    resize:none;
+    display: inline-block;
+ }
 footer{
     display: flex;
     justify-content: center;

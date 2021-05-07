@@ -29,21 +29,30 @@
         <h1 class="contactenos">contactenos</h1>
         <section class="formulario">
             <form action="https://formspree.io/f/xgervebz" method="POST">
-                <label for="nombre">Nombre:</label>
-                <input name="nombre" type="text" id="nombre"/>
-                <p><label>Apellido: <input type="text" name="nombres"></label></p>
-                <label>seleccionar Tema de consulta:
-                        <select name="selector">
-                        <option value="Consulta">elijo java</option>
-                        <option value="Compra">elijo python</option>
-                        <option value="Reseña">elijo c++</option>
-                        </select></label>
-                <label>comentarios:<textarea name="Comentario" cols="30" rows="10"></textarea></label>
-                <fieldset>
-                    <legend>Datos Personales</legend>
-                    <label>deporte: <input type="text" name="deporte"></label>
-                    <label>bicicleta:<input type="text" name="bicicleta" value="bici epica"></label>
-                </fieldset>
+                <label>Producto de su interes:
+                    <select  style="color: red;" name="selector">
+                    <option value="Taza">Taza</option>
+                    <option value="Llavero">Llavero</option>
+                    <option value="Joa">Joya</option>
+                    </select></label>
+                    <p></p>
+                <label class="textito" for="nombre">Nombre:</label>
+                <input id=nombre name="nombre" type="text" id="nombre"/>
+                <label  class="textito">Apellido: <input type="text" name="nombres" id="apellido"></label> <br>
+                <label  class="textito"for="celular">Nro de celular:</label>
+                <input id=celular name="celular" type="text" id="celular"/>
+                <label  class="textito"for="Pais">Pais:</label>
+                <input id=Pais name="Pais" type="text" id="Pais"/>
+                <label  class="textito"for="Localidad">Localidad:</label>
+                <input id=Localidad name="Localidad" type="text" id="Localidad"/>
+                <label  class="textito" for="Domicilio">Domicilio:</label>
+                <input id=Domicilio name="Domicilio" type="text" id="Domicilio"/>
+                <label  class="textito"for="CP">Codigo postal:</label>
+                <input id=CP name="CP" type="CP" id="CP"/>
+              
+                    <p>
+                <label  class="textito">comentarios:<textarea name="Comentario" cols="5" rows="5"></textarea></label>
+            </p>
                 <input type="reset" name="reset">
                 <button>Enviar</button>
                 <input type="submit" name="submit">
