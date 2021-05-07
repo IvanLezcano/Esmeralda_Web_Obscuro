@@ -29,30 +29,49 @@
         <h1 class="contactenos">contactenos</h1>
         <section class="formulario">
             <form action="https://formspree.io/f/xjvjgdbb" method="POST">
-                <label>Producto de su interes:
-                    <select  style="color: red;" name="selector">
-                    <option value="Taza">Taza</option>
-                    <option value="Llavero">Llavero</option>
-                    <option value="Joa">Joya</option>
-                    </select></label>
-                    <p></p>
-                <label class="textito" for="nombre">Nombre:</label>
-                <input id=nombre name="nombre" type="text" id="nombre"/>
-                <label  class="textito">Apellido: <input type="text" name="nombres" id="apellido"></label> <br>
+                
+                <div class="contenedor2">
+                    <label class="textito" for="nombre" >Nombre:</label>
+                    <input id=nombre name="nombre" type="text" id="nombre"/>
+                </div>
+                <div class="contenedor2">
+                <label class="textito" for="apellido">Apellido:</label>
+                <input id=apellido name="apellido" type="text" id="apellido"/>
+                </div>
+                <div class="contenedor2">
                 <label  class="textito"for="celular">Nro de celular:</label>
                 <input id=celular name="celular" type="text" id="celular"/>
+                </div>
+                <div class="contenedor2">
                 <label  class="textito"for="Pais">Pais:</label>
                 <input id=Pais name="Pais" type="text" id="Pais"/>
+                </div>
+                <div class="contenedor2">
                 <label  class="textito"for="Localidad">Localidad:</label>
                 <input id=Localidad name="Localidad" type="text" id="Localidad"/>
+                </div>
+                <div class="contenedor2">
                 <label  class="textito" for="Domicilio">Domicilio:</label>
                 <input id=Domicilio name="Domicilio" type="text" id="Domicilio"/>
+                </div>
+                <div class="contenedor2">
                 <label  class="textito"for="CP">Codigo postal:</label>
                 <input id=CP name="CP" type="CP" id="CP"/>
+                </div>
+                <div>
+                    <label  class="textito">Producto de su interes:
+                        <select  style="color: red;" name="selector">
+                        <option value="Taza">Taza</option>
+                        <option value="Llavero">Llavero</option>
+                        <option value="Joa">Joya</option>
+                        </select></label>
+                </div>
+
               
-                    <p>
-                <label  class="textito">comentarios:<textarea name="Comentario" cols="5" rows="5"></textarea></label>
-            </p>
+                
+                <label class="textito" class="textarea2">comentarios:<textarea name="Comentario" cols="15" rows="5"></textarea></label>
+                    
+                
                 <input type="reset" name="reset">
                 <button>Enviar</button>
                 <input type="submit" name="submit">

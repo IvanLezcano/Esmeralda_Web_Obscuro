@@ -70,73 +70,101 @@ body{
     color: aqua;
     padding: 2rem;
 }
-.formulario{
+/* .formulario{
     display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
     color: aquamarine;
    
     
-}
-.apartado{
-    text-align: center;
-    margin-top: 6rem;
-    
-}
+} */
+
+
 .textito{
-    margin-bottom: auto;
-    margin-left: 1rem;
-    
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    color: red;
 }
-#nombre{
-    color: green;
-    margin: 1rem;
-    width: 30%;
-}
-#apellido{
-    color: green;
-    width: 30%;
-    margin-left: 2rem;  
-      
-    
-}
-#celular{
-    color: green;
-    width: 30%;
-    margin-left: 2rem;  
-    margin-bottom: 1rem;   
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
 
 }
-#Pais{
-    color: green;
+.seleccion{
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+#nombre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 30%;
-    margin-left: 2rem;
-    margin-bottom: 1rem;    
+  
+}
+#apellido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  
+}
+#celular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  
+}
+#Pais{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+     
 }
 #Localidad{
-    color: green;
-    width: 30%;
-    margin-left: 2rem;    
-    margin-bottom: 1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  
 }
 #Domicilio{
-    color: green;
-    width: 30%;
-    margin-left: 2rem;   
-    margin-bottom: 1rem;  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    
 }
 #CP{
-    color: green;
-    width: 30%;
-    margin-left: 2rem;   
-    margin-bottom: 1rem;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  
 }
+
 textarea {
-    margin-left: 2rem;   
-    margin-bottom: 1rem; 
-    vertical-align: top;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    margin-right:1rem ;
+  
     height:6rem;
-    width: 80%;
-    resize:none;
-    display: inline-block;
+    width: 60rem;
  }
 footer{
     display: flex;
