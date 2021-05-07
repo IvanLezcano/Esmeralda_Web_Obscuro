@@ -8,7 +8,7 @@
     }
 }
 
-@media  (max-width: 424px){
+@media  (max-width: 26.5em){
     a{
         color:blue;
         font-size: .3em

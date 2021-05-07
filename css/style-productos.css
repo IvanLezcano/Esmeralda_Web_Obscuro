@@ -75,6 +75,47 @@ a{
     grid-area:cuatro;
 
 }
+.s5{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s6{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s7{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s8{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s9{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s5{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s5{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s5{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s5{
+    background-color: aqua;
+    grid-area: cinco;
+}
+.s5{
+    background-color: aqua;
+    grid-area: cinco;
+}
+
 @media screen and (max-width:640px){
     .container{
         grid-template-areas: "tres tres tres""uno uno uno""dos dos dos";
