@@ -15,13 +15,13 @@
 </head>
 
 <body>
-
+    
     <header>
         <img class="logo" src="./imagenes/Logo header.png" alt="imagen">
-        <h1 class="titulo_pagina">Esmeralda Elementos</h1>
-        <nav>
-            <input type="checkbox" id="menu">
-            <label for="menu"> ☰ </label>
+        <p class="titulo_pagina">Esmeralda Elementos</p>
+        <nav class="navegador">
+           
+            
             <ul>
                 <li><a href="index.html">Inicio</a></a></li>
                 <li><a href="productos.html">Productos</a></a></li>
@@ -34,10 +34,21 @@
     </header>
 
     <main>
-      
+        <div class="menumobile">
+            <label class="hamburger" for="menu"> ☰ </label>
+                <input type="checkbox" id="menu">
+                
+                <ul>
+                    <li><a href="index.html">Inicio</a></a></li>
+                    <li><a href="productos.html">Productos</a></a></li>
+                    <li><a href="sobre_nosotros.html">Sobre nosotros</a></a></li>
+                    <li><a href="promociones.html">Promociones</a></a></li>
+                    <li><a href="contacto.html">Contacto</a></a></li>
+                </ul>
+        </div>
 
      <section class="fotos-iniciales">
-         <img class="imagendeinicio" src="./imagenes/imagen_inicio1.jpeg" alt=""><img src="imagenes/imagen_inicio2.jpeg" alt=""><img src="imagenes/imagen_inicio3.jpeg" alt="">
+         <img class="imagendeinicio" src="./imagenes/imagen_inicio1.jpeg" alt=""><img class="imagendeinicio" src="imagenes/imagen_inicio2.jpeg" alt=""><img class="imagendeinicio" src="imagenes/imagen_inicio3.jpeg" alt="">
      </section>
 
      <p class="texto-inicio">
@@ -49,12 +60,12 @@
             <img src="./imagenes/fotocontexto.jpeg" alt="">
          </div>
          <div>
-            <h1 class="texto-cerca-imagen">texto de imagen</h1>
+            <p class="texto-cerca-imagen">texto de imagen</p>
         </div>
      </section>
      <section class="foto-y-texto1">
         <div><img src="./imagenes/fotocontexto2.jpeg" alt=""></div>
-        <div><h1 class="texto-cerca-imagen">este es un exto asdasdasdasdasdasdasdasdasd
+        <div><p class="texto-cerca-imagen">este es un exto asdasdasdasdasdasdasdasdasd
             asd
             asd
             asd
@@ -63,17 +74,17 @@
         
             d
             asd
-            asacompañado de la foto </h1></div>
+            asacompañado de la foto </p></div>
      </section>
      
      <section class="parte-final-index">
          <div>
-        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam necessitatibus ipsum omnis aspernatur enim soluta doloribus sit beatae! Recusandae vitae assumenda soluta perferendis et similique blanditiis excepturi rerum aliquam sapiente!</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam necessitatibus ipsum omnis aspernatur enim soluta doloribus sit beatae! Recusandae vitae assumenda soluta perferendis et similique blanditiis excepturi rerum aliquam sapiente!</p>
         </div>
         <div>
         <img class="mapa" src="./imagenes/tierra.jpg" alt="">
         </div>
-        <div><h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed numquam temporibus id expedita aspernatur natus quas accusamus ipsa, laborum aperiam provident, vero, minus deleniti architecto laudantium dolor labore dolorem officiis?</h1>
+        <div><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed numquam temporibus id expedita aspernatur natus quas accusamus ipsa, laborum aperiam provident, vero, minus deleniti architecto laudantium dolor labore dolorem officiis?</p>
         </div>
         </section>
 
@@ -89,19 +100,23 @@
     <footer>
         
         
-        <section>
-            <ul class="paginas">
-                <li class="faceinsta"><a href="https://www.facebook.com/esmeralda.elementos">Facebook</a></li>
-                <i class="fa fa-facebook-official" style="font-size:3rem;position: relative; right: 1rem; color:cornflowerblue"></i>
+        
+        <section class="redes">
+            <div class="red">
+                <a href="https://www.facebook.com/esmeralda.elementos">Facebook</a>
+                <i class="fa fa-facebook-official" style="color:cornflowerblue"></i>
+            </div>
+            <div class="red">
+                <a href="https://www.instagram.com/esmeralda.elementos/">Instagram</a>
+                <i class="fa fa-instagram" style="color:pink; "></i>
+            </div>
                 
-                <li class="faceinsta"><a href="https://www.instagram.com/esmeralda.elementos/">Instagram</a><li>
-                <i class="fa fa-instagram" style="font-size:3rem;color:pink; transform: translateX(-30px);transform: translateY(-9px); position: relative; right: 2rem;"></i>
+                
+             
 
-            </ul>
+        
         </section>
-        <section class="mensajefinal">
-            <h1 class="mensajefinal">Seguinos en nuestras redes!!!</h1>
-        </section>
+        <p class="mensajefinal">Seguinos en nuestras redes!!!</p>
        
     </footer>
 </body>

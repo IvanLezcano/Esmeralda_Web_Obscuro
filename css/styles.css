@@ -18,11 +18,12 @@ header{
 
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
-
-
-    
-
 }
+.menumobile{
+    display:none;
+}
+
+
   input {
     display: none;
   }
@@ -75,17 +76,17 @@ a{
     margin-bottom: 2rem;
 }
 .fotos-iniciales{
+    width: 100%;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 1rem;
     /* border: 0.2rem solid blue ; */
 
 }
-.fotos-iniciales img{
-    width: 26rem;
-    height: 18rem;
-    border-radius: 2rem;
+.imagendeinicio{
+    max-width: 15rem;
+    margin: auto;
+    border-radius: 1rem;
     border: 1px solid aqua;
     /* border: 0.2rem solid yellow; */
 }
@@ -110,57 +111,57 @@ a{
     justify-content: flex-start;
 }
 .parte-final-index{
+    width: 100%;
+    margin: auto;
     color: brown;
     display: flex;
     justify-content: center;
 }
-.parte-final-index h1{
+.parte-final-index p{
+    
     color: brown;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .mapa{
-    width: 13rem;
-    height: 8rem;
+    width: auto;
 }
 .paginas li{
     display:flex;
-    padding-left:1rem;
-    padding-right:1rem;
+   
 
 }
 .redes{
     margin: 0;
     color: aqua;
 }
-.foto_rellenar{
-    justify-content: center;
-}
+
 body{
    background-color: black;
     
 
 }
 footer{
-    display: grid;
-    grid-template-rows:6rem 0rem ;
-    justify-content: center;
-    padding: 4rem;
-    margin-left: 2rem;
+   width: 100%;
+   margin: auto;
+}
+.redes{
+    width: 100%;
+    max-width: 30rem;
+    margin: auto;
+    display: flex;
+    /* margin: 0 10rem ;  */
+    flex-direction: row;
+}
+.red{
+    margin: auto;
     
+}
+.red a{
+    font-size: 1rem;
+}
 
-}
-.faceinsta{
-    font-size: 2rem;
-}
-.fa fa-instagram{
-    color: white !important;
-}
 .mensajefinal{
-    justify-content: space-around;
-    align-items: center;
     color: aqua;
-    font-size: 2rem;
-    margin-left: 0.5rem;
 }

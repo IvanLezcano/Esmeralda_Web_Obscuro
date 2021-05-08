@@ -25,6 +25,7 @@
         user-select: none;
       }
       li {
+  
         display: block;
         background: lightgrey;
         margin: 0;
@@ -39,7 +40,10 @@
             text-transform: uppercase;
             font-size: 10px;
         }
-      
+      .hamburger{
+        text-align: end;
+        color: yellow;
+      }
     
     
     
@@ -71,34 +75,27 @@
         
     }
     footer{
-      justify-content: center;
-      padding: 4rem;
-      margin-left: 2rem;
-      
-  
-  }
-  .faceinsta{
-      font-size: 2rem !important;
-  }
-  .fa fa-instagram{
-      color: white !important;
-  }
-  .mensajefinal{
-      justify-content: space-around;
-      align-items: center;
-      color: aqua;
-      font-size: 2rem;
-      margin-left: 0.5rem;
-  }
-  .paginas li{
-    display:flex;
-    padding-left:1rem;
-    padding-right:1rem;
-
-}
-.redes{
-    margin: 0;
-    color: aqua;
-}
+      width: 100%;
+      margin: auto;
+   }
+   .redes{
+       width: 100%;
+       max-width: 30rem;
+       margin: auto;
+       display: flex;
+       /* margin: 0 10rem ;  */
+       flex-direction: row;
+   }
+   .red{
+       margin: auto;
+       
+   }
+   .red a{
+       font-size: 1rem;
+   }
+   
+   .mensajefinal{
+       color: aqua;
+   }
     
   }

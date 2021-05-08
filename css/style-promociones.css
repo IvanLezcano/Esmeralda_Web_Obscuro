@@ -68,13 +68,24 @@ a{
     font-size: 2rem;
     
 }
-.carousel-item {
-    height: 20rem !important;
-}
 .carousel{
-    margin-top: 0.5rem;
-}
+ 
+    --carousel-control-width: 10rem;
 
+}
+.carousel-item{
+    height: 20rem !important;
+    margin-top: 2rem;
+
+}
+.imagenc{
+    display: block;
+  width: auto;
+  height: auto;
+  max-width: 60rem;
+  max-height: 20rem;
+
+}
 
 .paginas li{
     display:flex;
