@@ -1,10 +1,28 @@
 @media  (max-width: 26.5em){
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .texto-inicio{
         color: white;
         text-align: center;
         margin-top: 0.2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0.2rem;
     }
     .fotos-iniciales{
         display: flex;
@@ -25,13 +43,13 @@
     
     .foto-y-texto1{
         display: flex;
-        margin: 1rem;
+        margin: 0;
         color: red;
         justify-content: flex-start;
     }
     .foto-y-texto1 img{
-        width: 26rem;
-        height: 14rem;
+        width: 5rem;
+        height: 3rem;
         border: 9px green;
         border-style: inset;
     
@@ -39,67 +57,37 @@
     
     }
     .texto-cerca-imagen{
-        margin: 1rem;
+            margin: 0 !important;
+            font-size: 0.5rem;
         justify-content: flex-start;
+        flex-direction: row;
+
     }
     .parte-final-index{
+        flex-direction: column;
         color: brown;
         display: flex;
         justify-content: center;
     }
     .parte-final-index h1{
+        flex-direction: column;
         color: brown;
         display: flex;
         justify-content: center;
         text-align: center;
     }
     .mapa{
-        width: 13rem;
-        height: 8rem;
+        flex-direction: row;
+
+        width: 10rem;
+        height: 6rem;
+        margin-left:1rem ;
     }
     .paginas li{
         display:flex;
+        flex-direction: row;
         padding-left:1rem;
         padding-right:1rem;
     
     }
-    .redes{
-        margin: 0;
-        color: aqua;
-    }
-    .foto_rellenar{
-        justify-content: center;
-    }
-    body{
-        display: flex;
-        flex-direction: column;
-       background-color: black;
-        
-    
-    }
-    footer{
-        display: grid;
-        grid-template-rows:6rem 0rem ;
-        justify-content: center;
-        padding: 4rem;
-        margin-left: 2rem;
-        
-    
-    }
-    .faceinsta{
-        font-size: 2rem;
-    }
-    .fa fa-instagram{
-        color: white !important;
-    }
-    .mensajefinal{
-        justify-content: space-around;
-        align-items: center;
-        color: aqua;
-        font-size: 2rem;
-        margin-left: 0.5rem;
-    }
-
-
-
 }

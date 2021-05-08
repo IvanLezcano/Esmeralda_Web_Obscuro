@@ -2,7 +2,47 @@
 
 @media  (max-width: 26.5em){
     
-       
+    ul{
+        display: none;
+      }
+      
+      input:checked  ~ ul{
+        display:block;
+      }
+      input {
+        display: none;
+      }
+      label {
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+      }
+      li {
+        display: block;
+        background: lightgrey;
+        margin: 0;
+        padding: 2px;
+        list-style: none;
+        border-bottom: 1px solid grey;
+      }
+      a{
+      
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 10px;
+        }
+      
+    
+    
+    
     
    
     header{
@@ -12,33 +52,8 @@
         margin: 0;
     
     }
-    .navegador{
-        width: 1rem;
-        height: 10px;
-        margin: 0;
-    }
-    ul{
-        list-style-type: none;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: transparent;
-        height: 5%
-       
-        
-    }
-    ul li{
-        height: 30%;
-        margin:0
-        
-    }
-    a{
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-size: 3px;
-        border: 0.2px solid red;
-    }
+   
+    
     .logo{
         width: 2rem;
         height: 2rem;
@@ -55,6 +70,35 @@
         padding:0;
         
     }
+    footer{
+      justify-content: center;
+      padding: 4rem;
+      margin-left: 2rem;
+      
+  
+  }
+  .faceinsta{
+      font-size: 2rem !important;
+  }
+  .fa fa-instagram{
+      color: white !important;
+  }
+  .mensajefinal{
+      justify-content: space-around;
+      align-items: center;
+      color: aqua;
+      font-size: 2rem;
+      margin-left: 0.5rem;
+  }
+  .paginas li{
+    display:flex;
+    padding-left:1rem;
+    padding-right:1rem;
 
-    
 }
+.redes{
+    margin: 0;
+    color: aqua;
+}
+    
+  }
