@@ -14,6 +14,8 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
+    
+
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
 
@@ -54,18 +56,23 @@ a{
 .texto-inicio{
     color: white;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .fotos-iniciales{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0.2rem solid blue ;
+    margin-top: 1rem;
+    /* border: 0.2rem solid blue ; */
 
 }
 .fotos-iniciales img{
-    width: 100rem;
-    height: 300px;
-    border: 0.2rem solid yellow;
+    width: 26rem;
+    height: 18rem;
+    border-radius: 2rem;
+    border: 1px solid aqua;
+    /* border: 0.2rem solid yellow; */
 }
 
 .foto-y-texto1{
@@ -76,7 +83,9 @@ a{
 }
 .foto-y-texto1 img{
     width: 26rem;
-    height: 12rem;
+    height: 14rem;
+    border: 9px green;
+    border-style: inset;
 
 
 
@@ -97,9 +106,8 @@ a{
     text-align: center;
 }
 .mapa{
-    border: 0.5rem solid grey;
-    width: 10rem;
-    height: 10rem;
+    width: 13rem;
+    height: 8rem;
 }
 .paginas li{
     display:flex;
@@ -108,20 +116,36 @@ a{
 
 }
 .redes{
+    margin: 0;
     color: aqua;
 }
 .foto_rellenar{
     justify-content: center;
 }
 body{
-    background-color: black;
+   background-color: black;
+    
+
 }
 footer{
-    display: flex;
+    display: grid;
+    grid-template-rows:6rem 0rem ;
     justify-content: center;
     padding: 4rem;
+    margin-left: 2rem;
+    
 
+}
+.faceinsta{
+    font-size: 2rem;
 }
 .fa fa-instagram{
     color: white !important;
+}
+.mensajefinal{
+    justify-content: space-around;
+    align-items: center;
+    color: aqua;
+    font-size: 2rem;
+    margin-left: 0.5rem;
 }

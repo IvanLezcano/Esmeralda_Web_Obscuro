@@ -1,0 +1,52 @@
+
+
+@media  (max-width: 26.5em){
+    
+       
+    
+    a{
+        color:blue;
+        font-size: .3em
+    }
+    header{
+        width: 10%;
+        background-size: 13rem 9rem;
+    
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        align-items: flex-start;
+        background-color: transparent;
+        
+    }
+    ul li{
+        margin: 0;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 5px;
+        border: 1px solid red;
+    }
+    .logo{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: 2px solid; color:yellow;
+    }
+    .titulo_pagina{
+        width: 20%;
+        text-align: center;
+        background-color: transparent;
+        color: yellow;
+        font-size: 0.5rem;
+        margin:0;
+        padding:0;
+        
+    }
+
+    
+}

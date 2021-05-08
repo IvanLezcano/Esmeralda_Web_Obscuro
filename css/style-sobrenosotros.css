@@ -65,6 +65,7 @@ body{
 
 .videoYoutube{
     display: flex; 
+    flex-wrap: wrap;
     width: 30rem !important;
     height: 20rem !important;
     justify-content: center;
