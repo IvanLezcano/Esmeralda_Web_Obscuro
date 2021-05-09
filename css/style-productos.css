@@ -73,7 +73,7 @@ a{
     color: red;
     display: grid;
     grid-template-columns:10rem repeat(2,1fr);
-    grid-template-rows: repeat(50,15rem);
+    grid-template-rows: repeat(50,12rem);
    
     
 
@@ -83,7 +83,12 @@ a{
 }
 .stick{
     position: fixed;
+    width: 10rem;
+    height: 200rem;
+    text-align: center;
+    background-color: rgb(163, 165, 165);
 }
+
 .griditem{
     border:2px solid red;
     grid-column-start: 1;
@@ -95,6 +100,11 @@ a{
 }
 .fotoproducto{
     border: 1px solid red;
+}
+.fotoproducto img{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.4rem;
 }
 .texto{
     border:1px solid blue
