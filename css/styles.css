@@ -64,10 +64,11 @@ a{
     border: 2px solid; color:yellow;
 }
 .titulo_pagina{
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     background-color: transparent;
     color: yellow;
-    font-size: 2rem;
+    font-size: 3rem;
     
 }
 .texto-inicio{

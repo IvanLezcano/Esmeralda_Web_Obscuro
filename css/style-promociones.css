@@ -54,11 +54,11 @@ a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.5rem;
 }
 .logo{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     border: 2px solid; color:yellow;
 }
@@ -66,7 +66,7 @@ a{
     text-align: center;
     background-color: transparent;
     color: yellow;
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 .carousel{
@@ -80,14 +80,34 @@ a{
 
 }
 .imagenc{
-    display: block;
   width: auto;
   height: auto;
   max-width: 60rem;
-  max-height: 20rem;
+  max-height: 43rem;
 
 }
+.foto-y-texto1{
+    display: flex;
+    margin: 1rem;
+    color: red;
+    justify-content: flex-start;
+    
+}
+.titulo-imagen-cercana{
+    font-family: 'Julius Sans One', sans-serif;
+    margin:20px;
+    font-size: 1.9rem;
+    color: aliceblue;
+}
+.foto-y-texto1 img{
+    width: 26rem;
+    height: 14rem;
+    border: 9px rgb(8, 83, 223);
+    border-style: inset;
 
+
+
+}
 .paginas li{
     display:flex;
     padding-left:1rem;

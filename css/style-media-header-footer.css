@@ -1,101 +1,230 @@
 
 
+
 @media  (max-width: 26.5em){
     
-    ul{
-        display: none;
+  ul{
+      display: none;
+    }
+    
+    input:checked  ~ ul{
+      display:block;
+    }
+    input {
+      display: none;
+    }
+    label {
+      box-sizing: border-box;
+      display: inline-block;
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      text-align: center;
+      user-select: none;
+    }
+    li {
+
+      display: block;
+      background: lightgrey;
+      margin: 0;
+      padding: 2px;
+      list-style: none;
+      border-bottom: 1px solid grey;
+    }
+    a{
+    
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-size: 10px;
       }
-      
-      input:checked  ~ ul{
-        display:block;
-      }
-      input {
-        display: none;
-      }
-      label {
-        box-sizing: border-box;
-        display: inline-block;
-        border: 1px solid black;
-        border-radius: 5px;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-weight: bold;
-        text-align: center;
-        user-select: none;
-      }
-      li {
+    .hamburger{
+      text-align: end;
+      color: yellow;
+    }
   
-        display: block;
-        background: lightgrey;
-        margin: 0;
-        padding: 2px;
-        list-style: none;
-        border-bottom: 1px solid grey;
-      }
-      a{
-      
-            text-decoration: none;
-            color: white;
-            text-transform: uppercase;
-            font-size: 10px;
-        }
-      .hamburger{
-        text-align: end;
-        color: yellow;
-      }
-    
-    
-    
-    
-   
-    header{
-        width: 15%;
-        background-size: 13rem 9rem;
-        padding: 0;
-        margin: 0;
-    
-    }
-   
-    
-    .logo{
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        border: 2px solid; color:yellow;
-    }
-    .titulo_pagina{
-        width: 20%;
-        text-align: center;
-        background-color: transparent;
-        color: yellow;
-        font-size: 0.5rem;
-        margin:0;
-        padding:0;
-        
-    }
-    footer{
-      width: 100%;
-      margin: auto;
-   }
-   .redes{
-       width: 100%;
-       max-width: 30rem;
-       margin: auto;
-       display: flex;
-       /* margin: 0 10rem ;  */
-       flex-direction: row;
-   }
-   .red{
-       margin: auto;
-       
-   }
-   .red a{
-       font-size: 1rem;
-   }
-   
-   .mensajefinal{
-       color: aqua;
-   }
-    
+  
+  
+  
+ 
+  header{
+      width: 15%;
+      background-size: 13rem 9rem;
+      padding: 0;
+      margin: 0;
+  
   }
+ 
+  
+  .logo{
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      border: 2px solid; color:yellow;
+  }
+  .titulo_pagina{
+      width: 100%;
+      text-align: center;
+      background-color: transparent;
+      color: yellow;
+      font-size: 1rem;
+      margin:0;
+      padding:0;
+      
+  }
+  footer{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 0.5rem;
+ }
+ 
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width: 768px) and (max-width: 1024px){
+    
+  ul{
+      display: block;
+    }
+    
+    input:checked  ~ ul{
+      display:block;
+    }
+    input {
+      display: block;
+    }
+    label {
+      box-sizing: border-box;
+      display: inline-block;
+      border: 1px solid rgb(255, 244, 244);
+      border-radius: 5px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-weight: bold;
+      text-align: center;
+      user-select: none;
+    }
+    li {
+
+      display: block;
+      width: 6rem;
+      background: rgb(8, 255, 49);
+      margin: auto;
+      padding: 2px;
+      list-style: none;
+      border-bottom: 1px solid grey;
+      text-align: center;
+
+    }
+    a{
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          text-transform: uppercase;
+          font-size: 10px;
+      }
+    .hamburger{
+      text-align: end;
+      color: rgb(238, 255, 0);
+    }
+  
+  
+  
+  
+ 
+  header{
+      width: 100%;
+      background-size: 13rem 9rem;
+      padding: 0;
+      margin: 0;
+      background-size: 100% ;
+  
+  }
+ 
+  
+  .logo{
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      border: 2px solid; color:yellow;
+  }
+  .titulo_pagina{
+      width: 100%;
+      text-align: center;
+      background-color: transparent;
+      color: yellow;
+      font-size: 2rem;
+      margin:0;
+      padding:0;
+      
+  }
+  footer{
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }
+ 
+
+  
+}

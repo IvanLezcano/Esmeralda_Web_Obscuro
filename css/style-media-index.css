@@ -21,6 +21,7 @@
         text-align: center;
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
+        font-size: 0.6rem;
     }
     .fotos-iniciales{
         display: flex;
@@ -33,7 +34,7 @@
     }
     .fotos-iniciales img{
         width: 33%;
-        height: 4rem;
+        height: 3.5rem;
         border-radius: 2rem;
         border: 1px solid aqua;
         /* border: 0.2rem solid yellow; */
@@ -54,10 +55,13 @@
     
     
     }
+    .titulo-imagen-cercana{
+        font-size: 0.3rem;
+        margin-left: 1rem;
+    }
     .texto-cerca-imagen{
-            margin: 0 !important;
-            font-size: 0.5rem;
-        justify-content: flex-start;
+            font-size: 0.2rem;
+            margin-left: 0.2rem;
         flex-direction: row;
 
     }
@@ -67,12 +71,13 @@
         display: flex;
         justify-content: center;
     }
-    .parte-final-index h1{
+    .parte-final-index p{
         flex-direction: column;
-        color: brown;
+        color: rgb(66, 94, 252);
         display: flex;
         justify-content: center;
         text-align: center;
+        font-size: 0.6rem;
     }
     .mapa{
         flex-direction: row;
@@ -88,4 +93,110 @@
         padding-right:1rem;
     
     }
+}
+@media  (min-width: 768px) and (max-width: 1024px){
+
+
+    .menumobile{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .texto-inicio{
+        color: white;
+        text-align: center;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        font-size: 1rem;
+    }
+    .fotos-iniciales{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.2rem;
+        /* border: 0.2rem solid blue ; */
+    
+    }
+    .fotos-iniciales img{
+        width: 33%;
+        height: 9rem;
+        border-radius: 2rem;
+        border: 1px solid aqua;
+        /* border: 0.2rem solid yellow; */
+    }
+    
+    .foto-y-texto1{
+        display: flex;
+        margin: 0;
+        color: red;
+        justify-content: flex-start;
+    }
+    .foto-y-texto1 img{
+        width: 10rem;
+        height: 6rem;
+        border: 9px green;
+        border-style: inset;
+    
+    
+    
+    }
+    .titulo-imagen-cercana{
+        font-size: 0.8rem;
+        margin-left: 3rem;
+    }
+    .texto-cerca-imagen{
+            font-size: 0.6rem;
+            margin-left: 0.4rem;
+        flex-direction: row;
+
+    }
+    .parte-final-index{
+        color: brown;
+        display: flex;
+        justify-content: center;
+    }
+    .parte-final-index p{
+        color: rgb(66, 94, 252);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    .mapa{
+
+        width: 10rem;
+        height: 6rem;
+    }
+    .paginas li{
+        display:flex;
+        flex-direction: row;
+        padding-left:1rem;
+        padding-right:1rem;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
