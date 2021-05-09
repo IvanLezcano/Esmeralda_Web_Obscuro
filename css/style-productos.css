@@ -124,6 +124,9 @@ a{
   
     
 }
+.griditem a{
+    color: rgb(56, 161, 87);
+}
 
 .fotoproducto{
     width: 100%;
@@ -145,18 +148,23 @@ body{
     background-color: black;
 }
 footer{
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-
-}
-
-.paginas li{
-    display:flex;
-    padding-left:1rem;
-    padding-right:1rem;
-
-}
-.redes{
-    color: aqua;
-}
+    width: 100%;
+    margin: auto;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     margin-top:2rem;
+     margin-bottom: 2rem;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }
