@@ -1,0 +1,296 @@
+@media  (max-width: 26.5em){
+
+    .menumobile{
+        display:block;
+    }
+    
+    
+      input {
+        display: none !important;
+      }
+      label {
+        box-sizing: border-box;
+        display: none;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+      }
+      li {
+        display: inline;
+        background: transparent;
+        margin: 0;
+        padding: 6px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: .5em;
+      }
+    a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.5rem;
+    }
+    .logo{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border: 2px solid; color:yellow;
+    }
+    .titulo_pagina{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        background-color: transparent;
+        color: yellow;
+        font-size: 1.9rem;
+        
+    }
+      
+  ul{
+    display: none;
+  }
+  
+  input:checked  ~ ul{
+    display:block;
+  }
+  input {
+    display: block;
+  }
+  label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+  }
+  li {
+
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 2px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+  a{
+  
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+  .hamburger{
+    text-align: end;
+    color: yellow;
+  }
+
+
+
+
+
+header{
+    width: 15%;
+    background-size: 13rem 9rem;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.logo{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid; color:yellow;
+}
+.titulo_pagina{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    font-size: 1rem;
+    margin:0;
+    padding:0;
+    
+}
+footer{
+  width: 100%;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.redes{
+   width: 100%;
+   max-width: 30rem;
+   margin: auto;
+   display: flex;
+   /* margin: 0 10rem ;  */
+   flex-direction: row;
+}
+.red{
+   margin: auto;
+   
+}
+.red a{
+   font-size: 0.5rem;
+}
+
+
+
+/* ----------------------- */
+.carousel{
+    display: none;
+ 
+    --carousel-control-width: 10rem;
+
+}
+
+
+
+
+.foto-y-texto1{
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 0.1rem;
+    color: red;
+    justify-content: flex-start;
+    
+}
+.titulo-imagen-cercana{
+    flex-direction: column;
+    
+    font-family: 'Julius Sans One', sans-serif;
+    margin:20px;
+    font-size: 1rem;
+    color: aliceblue;
+}
+.texto-cerca-imagen{
+    color:green;
+    margin:20px;
+
+    font-size: 0.6rem;
+    text-align: center;
+}
+.foto-y-texto1 img{
+    flex-direction: column;
+    margin-top: 10px ;
+
+    width: 100%;
+    height: 7rem;
+    border: 9px rgb(8, 83, 223);
+    border-style: inset;
+
+
+
+}
+.paginas li{
+    display:flex;
+    padding-left:1rem;
+    padding-right:1rem;
+
+}
+.redes{
+    color: aqua;
+}
+
+body{
+    background-color: black;
+}
+
+}
+
+
+
+@media  (min-width: 768px) and (max-width: 1024px){
+
+   
+    .logo{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border: 2px solid; color:yellow;
+    }
+    .titulo_pagina{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        background-color: transparent;
+        color: yellow;
+        font-size: 1.5rem;
+        
+    }
+    .carousel{
+        display: none;
+     
+        --carousel-control-width: 10rem;
+    
+    }
+    
+    
+    
+    
+    .foto-y-texto1{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 0.1rem;
+        color: red;
+        justify-content: flex-start;
+        
+    }
+    .titulo-imagen-cercana{
+        flex-direction: column;
+        
+        font-family: 'Julius Sans One', sans-serif;
+        margin:20px;
+        font-size: 1rem;
+        color: aliceblue;
+    }
+    .texto-cerca-imagen{
+        color:green;
+        margin:20px;
+    
+        font-size: 0.6rem;
+        text-align: center;
+    }
+    .foto-y-texto1 img{
+        flex-direction: column;
+        margin-top: 10px ;
+    
+        width: 100%;
+        height: 14rem;
+        border: 9px rgb(8, 83, 223);
+        border-style: inset;
+    
+    
+    
+    }
+    .paginas li{
+        display:flex;
+        padding-left:1rem;
+        padding-right:1rem;
+    
+    }
+    .redes{
+        color: aqua;
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    }
+    
+
+}

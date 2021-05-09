@@ -63,10 +63,11 @@ a{
     border: 2px solid; color:yellow;
 }
 .titulo_pagina{
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     background-color: transparent;
     color: yellow;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     
 }
 .carousel{
@@ -76,7 +77,7 @@ a{
 }
 .carousel-item{
     height: 20rem !important;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 
 }
 .imagenc{
@@ -95,9 +96,15 @@ a{
 }
 .titulo-imagen-cercana{
     font-family: 'Julius Sans One', sans-serif;
-    margin:20px;
-    font-size: 1.9rem;
+    margin-left:1.2rem;
+    font-size: 0.9rem;
+    text-align: center;
     color: aliceblue;
+}
+.texto-cerca-imagen{
+    margin-left: 1rem;
+    color: green;
+    text-align: center;
 }
 .foto-y-texto1 img{
     width: 26rem;
@@ -125,8 +132,25 @@ body{
 }
 
 footer{
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-
-}
+    width: 100%;
+    margin: auto;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     margin-top:2rem;
+     margin-bottom: 2rem;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }
+ 
+ 
