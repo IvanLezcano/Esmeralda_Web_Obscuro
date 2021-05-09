@@ -54,7 +54,7 @@ a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 .logo{
     width: 5rem;
@@ -63,10 +63,11 @@ a{
     border: 2px solid; color:yellow;
 }
 .titulo_pagina{
+    font-family: 'Oswald', sans-serif;
     text-align: center;
     background-color: transparent;
     color: yellow;
-    font-size: 2rem;
+    font-size: 2.3rem;
     
 }
 .paginas li{
@@ -84,12 +85,19 @@ a{
 body{
     background-color: black;
 }
-
+.youtube{
+    width: 100%;
+    margin: auto;
+}
 .videoYoutube{
     display: flex; 
     flex-wrap: wrap;
-    width: 30rem !important;
-    height: 20rem !important;
+    width: 100%;
+
+    max-width: 60rem;
+
+
+
     justify-content: center;
     align-items:center;
     padding: 0px;
@@ -99,6 +107,10 @@ body{
     margin-bottom: 1.2rem;
 	
 
+}
+.videoYoutube iframe{
+    width: 40rem;
+    height: 18rem;
 }
 
 .cuadrado{
@@ -139,8 +151,24 @@ background-color: rgb(117, 204, 171);
 }
 
 footer{
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-
-}
+    width: 100%;
+    margin: auto;
+ }
+ .redes{
+     width: 100%;
+     max-width: 30rem;
+     margin: auto;
+     margin-top:2rem;
+     margin-bottom: 2rem;
+     display: flex;
+     /* margin: 0 10rem ;  */
+     flex-direction: row;
+ }
+ .red{
+     margin: auto;
+     
+ }
+ .red a{
+     font-size: 1rem;
+ }
+ 
