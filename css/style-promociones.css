@@ -42,14 +42,18 @@ header{
   li {
     display: inline;
     background: transparent;
-    margin: 0;
-    padding: 6px;
+    margin: 0 !important;
+    padding: 0px !important;
     list-style: none;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: .5em;
   }
+ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 a{
     text-decoration: none;
     color: white;
@@ -71,11 +75,14 @@ a{
     
 }
 .carousel{
+    display: none !important;
  
     --carousel-control-width: 10rem;
 
 }
 .carousel-item{
+    display: none !important;
+
     height: 20rem !important;
     margin-top: 0.5rem;
 
