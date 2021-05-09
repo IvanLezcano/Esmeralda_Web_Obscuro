@@ -56,11 +56,13 @@
     
     }
     .titulo-imagen-cercana{
-        font-size: 0.3rem;
-        margin-left: 1rem;
+        font-size: 0.4rem;
+        margin-left: 1rem !important;
+        margin-top: 0 !important;
     }
     .texto-cerca-imagen{
-            font-size: 0.2rem;
+        margin: 0 !important;
+            font-size: 0.4rem;
             margin-left: 0.2rem;
         flex-direction: row;
 
