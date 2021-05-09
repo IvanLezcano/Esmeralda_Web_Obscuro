@@ -1,0 +1,65 @@
+@media  (max-width: 26.5em){
+    .menumobile{
+        display: block;
+    }
+
+    .container{
+        color: red;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(50,3rem);
+        
+       
+        
+    
+        border: 1px solid black;
+        grid-gap: 0.8rem;
+    
+    }
+    .stick{
+        position: fixed;
+        display: none;
+    }
+    .griditem{
+        border:2px solid fuchsia;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:1 ;
+        grid-row-end:2;
+        margin-top: 10px;
+      
+        
+    }
+    .fotoproducto{
+        width: 100%;
+        border: 1px solid red;
+    }
+    .fotoproducto img{
+        width: 100%;
+        border: 1px solid red;
+    }
+    .texto{
+        font-size: 0.8rem;
+        width: 100%;
+
+        border:1px solid blue
+    }
+    
+    body{
+        background-color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

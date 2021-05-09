@@ -4,6 +4,7 @@
     font-size: 28px;
     box-sizing: border-box;
     background-color: transparent;
+    background-size: 100%;
 }
 
 header{
@@ -14,7 +15,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
-    
+  
 
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
@@ -54,7 +55,7 @@ a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 .logo{
     width: 5rem;
@@ -70,10 +71,13 @@ a{
     
 }
 .texto-inicio{
+    font-family: 'Julius Sans One', sans-serif;
+    width: 80%;
     color: white;
+    font-size: 1.4rem;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin: 1.5rem auto 1.5rem;
+    
 }
 .fotos-iniciales{
     width: 100%;
@@ -87,7 +91,7 @@ a{
     max-width: 15rem;
     margin: auto;
     border-radius: 1rem;
-    border: 1px solid aqua;
+    border: 3px solid grey;
     /* border: 0.2rem solid yellow; */
 }
 
@@ -96,11 +100,18 @@ a{
     margin: 1rem;
     color: red;
     justify-content: flex-start;
+    
+}
+.titulo-imagen-cercana{
+    font-family: 'Julius Sans One', sans-serif;
+    margin:20px;
+    font-size: 1.9rem;
+    color: aliceblue;
 }
 .foto-y-texto1 img{
     width: 26rem;
     height: 14rem;
-    border: 9px green;
+    border: 9px rgb(8, 83, 223);
     border-style: inset;
 
 
@@ -108,12 +119,13 @@ a{
 }
 .texto-cerca-imagen{
     margin: 1rem;
+    font-family: 'Cormorant SC', serif;
     justify-content: flex-start;
+    color: rgb(240, 241, 163);
 }
 .parte-final-index{
     width: 100%;
     margin: auto;
-    color: brown;
     display: flex;
     justify-content: center;
 }
@@ -123,6 +135,8 @@ a{
     display: flex;
     justify-content: center;
     text-align: center;
+    color: rgb(59, 142, 236);
+
 }
 .mapa{
     width: auto;
@@ -150,6 +164,8 @@ footer{
     width: 100%;
     max-width: 30rem;
     margin: auto;
+    margin-top:2rem;
+    margin-bottom: 2rem;
     display: flex;
     /* margin: 0 10rem ;  */
     flex-direction: row;
@@ -162,6 +178,3 @@ footer{
     font-size: 1rem;
 }
 
-.mensajefinal{
-    color: aqua;
-}

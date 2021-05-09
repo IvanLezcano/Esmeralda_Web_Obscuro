@@ -15,16 +15,19 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
-    
+  
 
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
-
-
-    
-
 }
- 
+.menumobile{
+    display:none;
+}
+
+
+  input {
+    display: none;
+  }
   label {
     box-sizing: border-box;
     display: none;
@@ -52,7 +55,7 @@ a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 .logo{
     width: 5rem;
@@ -67,7 +70,6 @@ a{
     font-size: 2rem;
     
 }
-
 .paginas li{
     display:flex;
     padding-left:1rem;
