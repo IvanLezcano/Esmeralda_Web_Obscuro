@@ -67,6 +67,8 @@ a{
     border: 2px solid; color:yellow;
 }
 .titulo_pagina{
+    font-family: 'Oswald', sans-serif;
+
     text-align: center;
     background-color: transparent;
     color: yellow;

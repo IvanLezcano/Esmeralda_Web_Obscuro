@@ -58,8 +58,8 @@ a{
     font-size: 0.8rem;
 }
 .logo{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     border: 2px solid; color:yellow;
 }
@@ -68,7 +68,7 @@ a{
     text-align: center;
     background-color: transparent;
     color: yellow;
-    font-size: 3rem;
+    font-size: 2.3rem;
     
 }
 .texto-inicio{
