@@ -9,7 +9,7 @@
 header{
     /* height: 25vh; */
     min-width:100%;
-    max-width: 100%;
+    max-height: 9rem;
     display:flex;
     justify-content: space-between;
     align-items: center;

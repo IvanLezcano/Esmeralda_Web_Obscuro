@@ -75,13 +75,11 @@ a{
     
 }
 .carousel{
-    display: none !important;
  
     --carousel-control-width: 10rem;
 
 }
 .carousel-item{
-    display: none !important;
 
     height: 20rem !important;
     margin-top: 0.5rem;
