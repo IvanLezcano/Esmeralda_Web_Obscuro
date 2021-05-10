@@ -267,6 +267,22 @@ textarea {
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     padding: 2rem;
+    animation-duration: 1s;
+    animation-name: slidein;
+    }
+    
+    
+    @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+    
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    }
 
 }
 .textito{
@@ -284,7 +300,6 @@ textarea {
     max-width: 24rem;
     margin: 0.5rem auto;
     font-family: 'EB Garamond', serif;
-
 }
 .contenedor2 input{
     width: 50%;
@@ -310,7 +325,7 @@ textarea {
 
    
     
-  }
+  
   
   
     
@@ -417,7 +432,26 @@ textarea {
         margin:0;
         padding:0;
         
+        
     }
+    .contactenos{
+      
+      animation-duration: 1s;
+  animation-name: slidein;
+  }
+  
+  
+  @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+  }
     footer{
       width: 100%;
       margin: auto;
