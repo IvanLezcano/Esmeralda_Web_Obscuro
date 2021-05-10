@@ -51,18 +51,29 @@ header{
     color: white;
     text-transform: uppercase;
     font-size: .5em;
+    animation: animate__flip;
+    animation-duration: 3s;
+   
   }
 a{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 0.6rem;
+    animation: animate__flip;
+    animation-duration: 3s;
+    
+}
+a:hover{
+    background-color: aqua;
+  
 }
 .logo{
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
     border: 2px solid; color:yellow;
+    
 }
 .titulo_pagina{
     font-family: 'Oswald', sans-serif;
@@ -70,6 +81,8 @@ a{
     background-color: transparent;
     color: yellow;
     font-size: 2.3rem;
+    animation: animate__fadeIn;
+    animation-duration: 3s;
     
 }
 .texto-inicio{
@@ -79,8 +92,10 @@ a{
     font-size: 1.4rem;
     text-align: center;
     margin: 1.5rem auto 1.5rem;
+  
     
 }
+
 .fotos-iniciales{
     width: 100%;
     margin: auto;
