@@ -10,7 +10,6 @@
     }
 
     header{
-        background-size: 100%;
     }
 
 
@@ -36,13 +35,15 @@
     }
     .fotos-iniciales img{
         width: 33%;
-        height: 3.5rem;
+        height: 4.2rem;
         border-radius: 2rem;
         border: 1px solid aqua;
         /* border: 0.2rem solid yellow; */
     }
     
     .foto-y-texto1{
+        margin: 0 !important;
+
         display: flex;
         margin: 0;
         color: red;
@@ -58,14 +59,16 @@
     
     }
     .titulo-imagen-cercana{
+        margin: 0 !important;
+
         font-size: 0.4rem;
         margin-left: 1rem !important;
         margin-top: 0 !important;
     }
     .texto-cerca-imagen{
+        width: 100%;
         margin: 0 !important;
             font-size: 0.4rem;
-            margin-left: 0.2rem;
         flex-direction: row;
 
     }
@@ -116,7 +119,7 @@
         color: white;
         text-align: center;
         margin-top: 0.2rem;
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.8rem;
         font-size: 1rem;
     }
     .fotos-iniciales{
@@ -126,24 +129,29 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 0.2rem;
+        
         /* border: 0.2rem solid blue ; */
     
     }
     .fotos-iniciales img{
         width: 33%;
-        height: 9rem;
+        height: 11rem;
         border-radius: 2rem;
         border: 1px solid aqua;
         /* border: 0.2rem solid yellow; */
     }
     
     .foto-y-texto1{
+        margin: 0 !important;
+
         display: flex;
         margin: 0;
         color: red;
         justify-content: flex-start;
     }
     .foto-y-texto1 img{
+        margin: 0 !important;
+
         width: 10rem;
         height: 6rem;
         border: 9px green;
@@ -154,10 +162,12 @@
     }
     .titulo-imagen-cercana{
         font-size: 0.8rem;
-        margin-left: 3rem;
+        margin: 0 !important;
+        margin-bottom: 0.1rem ;
     }
     .texto-cerca-imagen{
-            font-size: 0.6rem;
+        margin: 0 !important;
+            font-size: 1rem;
             margin-left: 0.4rem;
         flex-direction: row;
 
