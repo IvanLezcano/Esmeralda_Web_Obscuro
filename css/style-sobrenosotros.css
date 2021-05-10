@@ -6,6 +6,19 @@
     background-color: transparent;
 }
 
+
+
+
+
+/* header */
+
+
+
+
+
+
+
+
 header{
     /* height: 25vh; */
     min-width:100%;
@@ -82,9 +95,15 @@ a{
 .redes{
     color: aqua;
 }
-.foto_rellenar{
-    justify-content: center;
-}
+
+
+
+
+/* cuerpo de la pagina */
+
+
+
+
 body{
     background-color: black;
 }
@@ -152,6 +171,20 @@ background-color: rgb(117, 204, 171);
     border: 0.2rem solid green;
     background-color: green;
 }
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
 
 footer{
     width: 100%;

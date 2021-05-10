@@ -7,6 +7,17 @@
 
 }
 
+
+/* header */
+
+
+
+
+
+
+
+
+
 header{
     /* height: 25vh; */
     min-width:100%;
@@ -74,6 +85,17 @@ a{
     animation-duration: 3s;
     
 }
+
+
+/* cuerpo de la pagina */
+
+
+
+
+
+
+
+
 .container{
     color: rgb(56, 161, 87);
     font-family: 'Padauk', sans-serif;
@@ -151,6 +173,19 @@ a{
 body{
     background-color: black;
 }
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
 footer{
     width: 100%;
     margin: auto;

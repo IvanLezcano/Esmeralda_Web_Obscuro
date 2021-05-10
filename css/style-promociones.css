@@ -6,13 +6,22 @@
     background-color: transparent;
 }
 
+
+/* header */
+
+
+
+
+
+
+
 header{
     /* height: 25vh; */
-    min-width:100%;
-    max-width: 100%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    min-width:100% !important;
+    max-width: 100% !important;
+    display:flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     background-image: url(../imagenes/fondo_header.jpg) ;
     background-size: 100% !important;
 
@@ -57,27 +66,40 @@ ul{
     margin: 0 !important;
 }
 a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 0.6rem;
+    text-decoration: none !important;
+    color: white !important;
+    text-transform: uppercase !important;
+    font-size: 0.6rem !important;
 }
 .logo{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    border: 2px solid; color:yellow;
+    width: 4rem !important;
+    height: 4rem !important;
+    border-radius: 50% !important;
+    border: 2px solid; color:yellow !important;
 }
 .titulo_pagina{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    background-color: transparent;
+    font-family: 'Oswald', sans-serif !important;
+    text-align: center !important;
+    background-color: transparent !important;
     color: yellow;
-    font-size: 2.3rem;
+    font-size: 2.3rem !important;
     animation: animate__fadeIn;
-    animation-duration: 3s;
+    animation-duration: 3s ;
     
 }
+
+
+
+/* cuerpo de la pagina */
+
+
+
+
+
+
+
+
+
 .carousel{
  
     --carousel-control-width: 10rem;
@@ -139,6 +161,12 @@ a{
 body{
     background-color: black;
 }
+
+
+
+
+
+/* footer */
 
 footer{
     width: 100%;

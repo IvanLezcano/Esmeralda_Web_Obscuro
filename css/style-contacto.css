@@ -6,6 +6,10 @@
     background-color: transparent;
 }
 
+/* HEADER */
+
+
+
 header{
     /* height: 25vh; */
     min-width:100%;
@@ -91,12 +95,15 @@ a{
 .redes{
     color: aqua;
 }
-.foto_rellenar{
-    justify-content: center;
-}
+
 body{
     background-color: black;
 }
+
+
+/* CUERPO DEL FORMULARIO */
+
+
 .contactenos{
     display: flex;
     justify-content: center;
@@ -162,6 +169,13 @@ textarea {
     color: aquamarine;
   
  }
+
+
+
+/* FOOTER */
+
+
+
  footer{
     width: 100%;
     margin: auto;

@@ -8,6 +8,14 @@
 
 }
 
+
+
+/* header */
+
+
+
+
+
 header{
     /* height: 25vh; */
     min-width:100%;
@@ -16,7 +24,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
-    background-size: cover !important;
+    background-size: 100% !important;
 
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
@@ -75,6 +83,19 @@ a:hover{
     border: 2px solid; color:yellow;
     
 }
+
+
+
+
+
+
+/* index con flex */
+
+
+
+
+
+
 .titulo_pagina{
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -173,6 +194,21 @@ body{
     
 
 }
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
 footer{
    width: 100%;
    margin: auto;
