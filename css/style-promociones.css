@@ -1,7 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
-    font-size: 28px;
+    padding: 0 !important;
+    font-size: 28px !important;
     box-sizing: border-box;
     background-color: transparent;
 }
@@ -58,8 +57,8 @@ header{
     list-style: none;
     text-decoration: none;
     color: white;
-    text-transform: uppercase;
-    font-size: .5em;
+    text-transform: uppercase !important;
+    font-size: .5em !important;
   }
 ul{
     padding: 0 !important;
@@ -120,20 +119,21 @@ a{
 }
 .foto-y-texto1{
     display: flex;
-    margin: 1rem;
+    margin: 1rem !important;
     color: red;
     justify-content: flex-start;
     
 }
 .titulo-imagen-cercana{
     font-family: 'Julius Sans One', sans-serif;
-    margin-left:1.2rem;
+    margin-left:1.2rem !important;
+    margin-bottom: 1rem !important;
     font-size: 0.9rem;
     text-align: center;
     color: aliceblue;
 }
 .texto-cerca-imagen{
-    margin-left: 1rem;
+    margin-left: 1rem !important;
     color: green;
     text-align: center;
 }
@@ -142,6 +142,7 @@ a{
     height: 14rem;
     border: 9px rgb(8, 83, 223);
     border-style: inset;
+    margin-left: 1rem !important;
 
 
 

@@ -3,59 +3,10 @@
 
 
 @media  (max-width: 500px){
+    *{
+        margin: 0 !important;
+    }
 
-    .menumobile{
-        display:block;
-    }
-    
-    
-      input {
-        display: none !important;
-      }
-      label {
-        box-sizing: border-box;
-        display: none;
-        border: 1px solid black;
-        border-radius: 5px;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-weight: bold;
-        text-align: center;
-        user-select: none;
-      }
-      li {
-        display: inline;
-        background: transparent;
-        margin: 0;
-        padding: 6px;
-        list-style: none;
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-size: .5em;
-      }
-    a{
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-size: 0.5rem;
-    }
-    .logo{
-        width: 4rem;
-        height: 4rem;
-        border-radius: 50%;
-        border: 2px solid; color:yellow;
-    }
-    .titulo_pagina{
-        font-family: 'Oswald', sans-serif;
-        text-align: center;
-        background-color: transparent;
-        color: yellow;
-        font-size: 1.9rem;
-        
-    }
-      
   ul{
     display: none;
   }
@@ -64,7 +15,7 @@
     display:block;
   }
   input {
-    display: block;
+    display: none;
   }
   label {
     box-sizing: border-box;
@@ -113,42 +64,50 @@ header{
 
 
 .logo{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 50% !important;
     border: 2px solid; color:yellow;
 }
 .titulo_pagina{
-    width: 100%;
+    width: 100% !important;
     text-align: center;
     background-color: transparent;
     color: yellow;
-    font-size: 1rem;
-    margin:0;
-    padding:0;
+    font-size: 1rem !important;
+    margin:0 !important;
+    padding:0 !important;
     
 }
+.menumobile{
+  display:block;
+}
 footer{
-  width: 100%;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.redes{
-   width: 100%;
-   max-width: 30rem;
-   margin: auto;
-   display: flex;
-   /* margin: 0 10rem ;  */
-   flex-direction: row;
-}
-.red{
-   margin: auto;
-   
-}
-.red a{
-   font-size: 0.5rem;
-}
+    width: 100% !important;
+    margin: auto !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+  .redes{
+     width: 100% !important;
+     max-width: 30rem !important;
+     margin: auto !important;
+     display: flex !important;
+     /* margin: 0 10rem ;  */
+     flex-direction: row !important;
+  }
+  .red{
+     margin: auto !important;
+     
+  }
+  .red a{
+     font-size: 0.5rem !important;
+  }
+  
+
+
+
+
 
 
 
@@ -164,37 +123,37 @@ footer{
 
 
 .foto-y-texto1{
-    width: 100%;
+    width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
-    margin: 0.1rem;
+    margin: 0 !important;
     color: red;
     justify-content: flex-start;
     
 }
 .titulo-imagen-cercana{
-    flex-direction: column;
+    flex-direction: column !important;
     
-    font-family: 'Julius Sans One', sans-serif;
-    margin:20px;
-    font-size: 1rem;
-    color: aliceblue;
+    font-family: 'Julius Sans One', sans-serif !important;
+    margin:0 !important;
+    font-size: 1rem !important;
+    color: aliceblue !important;
 }
 .texto-cerca-imagen{
-    color:green;
-    margin:20px;
+    color:green !important;
+    margin:20px !important;
 
-    font-size: 0.6rem;
-    text-align: center;
+    font-size: 0.6rem !important;
+    text-align: center !important;
 }
 .foto-y-texto1 img{
-    flex-direction: column;
-    margin-top: 10px ;
-
-    width: 100%;
-    height: 7rem;
-    border: 9px rgb(8, 83, 223);
-    border-style: inset;
+    flex-direction: column !important;
+    margin-top: 0  !important;
+    margin-left: 0 !important;
+    width: 100% !important;
+    height: 7rem !important;
+    border: 9px rgb(8, 83, 223) !important;
+    border-style: inset !important;
 
 
 
@@ -248,7 +207,7 @@ body{
         width: 100%;
         display: flex !important;
         flex-direction: column !important;
-        margin: 0.1rem;
+        margin: 0rem !important;
         color: red;
         justify-content: flex-start;
         
@@ -257,20 +216,21 @@ body{
         flex-direction: column;
         
         font-family: 'Julius Sans One', sans-serif;
-        margin:20px;
-        font-size: 1rem;
+        margin:0 !important;
+        font-size: 1rem !important;
         color: aliceblue;
     }
     .texto-cerca-imagen{
         color:green;
-        margin:20px;
+        margin:0 !important;
     
         font-size: 0.6rem;
         text-align: center;
     }
     .foto-y-texto1 img{
         flex-direction: column;
-        margin-top: 10px ;
+        margin: 0 !important;
+        margin-top: 10px !important ;
     
         width: 100%;
         height: 14rem;
