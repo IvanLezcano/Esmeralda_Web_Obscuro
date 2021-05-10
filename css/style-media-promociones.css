@@ -1,4 +1,4 @@
-@media  (max-width: 26.5em){
+@media  (max-width: 500px){
 
     .menumobile{
         display:block;
@@ -213,7 +213,7 @@ body{
 
 
 
-@media  (min-width: 768px) and (max-width: 1024px){
+@media  (min-width: 500px) and (max-width: 1024px){
 
    
     .logo{

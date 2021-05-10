@@ -1,10 +1,13 @@
-@media  (max-width: 26.5em){
+@media  (max-width: 500px){
     
     
 
 
     .menumobile{
         display: block;
+    }
+    header{
+        background-size: 100% !important;
     }
 
 

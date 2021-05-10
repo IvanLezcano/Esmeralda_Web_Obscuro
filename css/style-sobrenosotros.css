@@ -14,7 +14,8 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
-  
+    background-size: 100% !important;
+
 
     /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
     
