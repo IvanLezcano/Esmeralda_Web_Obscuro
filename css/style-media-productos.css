@@ -140,6 +140,7 @@
     .texto{
         font-size: 0.9rem;
         color: yellow;
+        text-align: center;
     
     }
     
@@ -149,6 +150,7 @@
     footer{
         width: 100%;
         margin: auto;
+        border-top: none !important;
      }
      .redes{
          width: 100%;
@@ -270,16 +272,16 @@
     
     .fotoproducto{
         width: 100%;
-        border: 1px solid red;
+        border: 1px solid rgb(255, 251, 0);
     }
     .fotoproducto img{
         height: 100%;
        
     }
     .texto{
-        border:1px solid blue;
         font-size: 1.2rem;
         color: yellow;
+        text-align: center;
     
     }
     
@@ -289,6 +291,8 @@
     footer{
         width: 100%;
         margin: auto;
+        border-top: none !important;
+
      }
      .redes{
          width: 100%;
