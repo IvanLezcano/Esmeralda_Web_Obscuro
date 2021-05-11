@@ -5,7 +5,6 @@
     box-sizing: border-box;
     background-color: transparent;
     background-size: 100%;
-
 }
 
 
@@ -24,19 +23,13 @@ header{
     justify-content: space-between;
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
-    background-size: 100% !important;
-
-    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
-    
+    background-size: 100% !important;    
 }
 .menumobile{
     display:none;
 }
-
-
   input {
-    display: none;
-  }
+    display: none;}
   label {
     box-sizing: border-box;
     display: none;
@@ -80,12 +73,8 @@ a:hover{
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    border: 2px solid; color:yellow;
-    
+    border: 2px solid; color:yellow;  
 }
-
-
-
 
 
 
@@ -104,7 +93,6 @@ a:hover{
     font-size: 2.3rem;
     animation: animate__fadeIn;
     animation-duration: 3s;
-    
 }
 .texto-inicio{
     font-family: 'Julius Sans One', sans-serif;
@@ -113,8 +101,6 @@ a:hover{
     font-size: 1.4rem;
     text-align: center;
     margin: 1.5rem auto 1.5rem;
-  
-    
 }
 
 .fotos-iniciales{
@@ -122,7 +108,6 @@ a:hover{
     margin: auto;
     display: flex;
     margin-top: 1rem;
-    /* border: 0.2rem solid blue ; */
 
 }
 .imagendeinicio{
@@ -130,7 +115,6 @@ a:hover{
     margin: auto;
     border-radius: 1rem;
     border: 3px solid grey;
-    /* border: 0.2rem solid yellow; */
 }
 
 .foto-y-texto1{
@@ -191,8 +175,6 @@ a:hover{
 
 body{
    background-color: black;
-    
-
 }
 
 
@@ -220,7 +202,6 @@ footer{
     margin-top:2rem;
     margin-bottom: 2rem;
     display: flex;
-    /* margin: 0 10rem ;  */
     flex-direction: row;
 }
 .red{

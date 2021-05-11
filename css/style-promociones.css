@@ -93,6 +93,8 @@ a{
 
 
 
+
+
 /* cuerpo de la pagina */
 
 
@@ -185,6 +187,10 @@ body{
 }
 
 
+
+
+
+
 /* footer */
 
 footer{
@@ -198,7 +204,6 @@ footer{
      margin-top:2rem;
      margin-bottom: 2rem;
      display: flex;
-     /* margin: 0 10rem ;  */
      flex-direction: row;
  }
  .red{
