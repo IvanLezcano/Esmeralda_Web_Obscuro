@@ -6,7 +6,9 @@
 @media  (max-width: 500px){
 
 
-
+    li{
+       background-color: green !important;
+    }
 
 
 
@@ -125,7 +127,9 @@
         display: none;
     }
 
-
+    li a{
+        color: black !important;
+    }
 
 
 

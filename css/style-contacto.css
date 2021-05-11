@@ -17,7 +17,8 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../imagenes/fondo_header.jpg) ;
+    background: rgb(245,250,250);
+background: linear-gradient(90deg, rgba(245,250,250,1) 0%, rgba(143,63,227,1) 97%); 
     background-size: 100% !important;
   
 
@@ -31,7 +32,7 @@ header{
 
   input {
     display: block;
-    color: aquamarine;
+    color: rgb(255, 255, 255);
   }
   label {
     box-sizing: border-box;
@@ -58,7 +59,7 @@ header{
     font-size: .5em;
   }
   li :hover{
-    background-color: yellow;
+    color: rgb(255, 238, 0);
 
   }
 a{  
@@ -155,7 +156,7 @@ to {
 }
 
 .seleccion{
-    color: blueviolet;
+    color: white !important;
     display: flex;
     justify-content: center;
     align-items: center;

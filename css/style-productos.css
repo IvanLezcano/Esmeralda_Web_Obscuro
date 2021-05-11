@@ -97,7 +97,8 @@ a{
 
 
 .container{
-    color: rgb(56, 161, 87);
+    color: transparent;
+    
     font-family: 'Padauk', sans-serif;
     
     display: grid;
@@ -116,7 +117,9 @@ a{
     height: 200rem;
     text-align: center;
     height: 30rem;
-    background-color: rgb(56, 161, 87);
+    background: rgb(236,89,89);
+background: linear-gradient(90deg, rgba(236,89,89,1) 3%, rgba(0,0,0,1) 93%);
+
     
 }
 .stick a{
@@ -146,17 +149,22 @@ a{
     grid-column-end: 2;
     grid-row-start:1 ;
     grid-row-end:50 ;
-    background-color: rgb(56, 161, 87);
+    background: rgb(236,89,89);
+background: linear-gradient(90deg, rgba(236,89,89,1) 3%, rgba(0,0,0,1) 93%);
+
   
     
 }
 .griditem a{
-    color: rgb(56, 161, 87);
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: yellow;
 }
 
 .fotoproducto{
     width: 100%;
-    border: 1px solid red;
+    border: 1px solid rgb(200, 255, 0);
 }
 .fotoproducto img{
     width: 100%;
@@ -164,15 +172,14 @@ a{
    
 }
 .texto{
-    border:1px solid blue;
     font-size: 1.8rem;
     color: yellow;
 
 }
 
 body{
-    background-color: black;
-}
+    background: rgb(236,89,144);
+    background: linear-gradient(90deg, rgba(236,89,144,1) 3%, rgba(0,0,0,1) 93%);}
 
 
 

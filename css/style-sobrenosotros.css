@@ -26,7 +26,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../imagenes/fondo_header.jpg) ;
+    background-image: url(../imagenes/fondo\ productos\ 1.jpg ) ;
     background-size: 100% !important;
 
 
@@ -63,6 +63,9 @@ header{
     color: white;
     text-transform: uppercase;
     font-size: .5em;
+  }
+  li :hover{
+      color: blue;
   }
 a{
     text-decoration: none;
