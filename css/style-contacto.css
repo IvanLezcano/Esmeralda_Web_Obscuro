@@ -156,7 +156,7 @@ to {
 }
 
 .seleccion{
-    color: white !important;
+    color: rgb(97, 0, 0) !important;
     display: flex;
     justify-content: center;
     align-items: center;
