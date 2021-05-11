@@ -167,8 +167,22 @@ body{
     background-color: black;
 }
 
-
-
+.card-title{
+    text-align: center !important;
+    color: aqua;
+    background-color: black !important;
+}
+.card-text{
+    background-color: black !important;
+    text-align: center !important;
+    color: aqua !important;
+}
+.card-body{
+    background-color: black;
+}
+.card{
+    margin-top: 1rem !important;
+}
 
 
 /* footer */
