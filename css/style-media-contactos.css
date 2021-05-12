@@ -98,7 +98,6 @@
        max-width: 30rem;
        margin: auto;
        display: flex;
-       /* margin: 0 10rem ;  */
        flex-direction: row;
    }
    .red{
@@ -112,7 +111,7 @@
    .contactenos{
     display: flex;
     justify-content:center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
     padding: 2rem;
 
@@ -255,7 +254,6 @@ textarea {
        max-width: 30rem;
        margin: auto;
        display: flex;
-       /* margin: 0 10rem ;  */
        flex-direction: row;
    }
    .red{

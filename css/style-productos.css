@@ -19,7 +19,6 @@
 
 
 header{
-    /* height: 25vh; */
     min-width:100%;
     max-width: 100%;
     display:flex;
@@ -27,10 +26,6 @@ header{
     align-items: center;
     background-image: url(../imagenes/fondo_header.jpg) ;
     background-size: cover !important;
-  
-
-    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
-    
 }
 .menumobile{
     display:none;

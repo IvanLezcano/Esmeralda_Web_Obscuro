@@ -1,5 +1,5 @@
 
-/* MEDIDA DE CELULAR Y TABLET*/
+/* MEDIDA DE CELULAR */
 
 
 @media  (max-width: 500px){
@@ -136,7 +136,10 @@
   }
   
   
-  
+
+
+
+/* medida para tablet   */
   
   @media  (min-width: 500px) and (max-width: 1024px){
     a{

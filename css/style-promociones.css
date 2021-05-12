@@ -6,6 +6,9 @@
 }
 
 
+
+
+
 /* header */
 
 
@@ -15,7 +18,6 @@
 
 
 header{
-    /* height: 25vh; */
     min-width:100% !important;
     max-width: 100% !important;
     display:flex !important;
@@ -24,10 +26,6 @@ header{
     background-image: url(../imagenes/fondo\ promociones.jpeg) ;
     background-size: 100% !important;
 
-  
-
-    /* background: url("./imagenes/fondo_header.jpg") no-repeat center ; */
-    
 }
 .menumobile{
     display:none;
