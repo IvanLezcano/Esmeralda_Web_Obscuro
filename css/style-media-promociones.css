@@ -2,7 +2,7 @@
 /* MEDIDA CELULAR */
 
 
-@media  (max-width: 500px){
+@media  (max-width: 499px){
     *{
         margin: 0 !important;
     }
