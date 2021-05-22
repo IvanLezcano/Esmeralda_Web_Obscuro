@@ -79,7 +79,7 @@ a{
     color: yellow;
     font-size: 2.3rem;
     animation: animate__fadeIn;
-    animation-duration: 3s;
+    animation-duration: 5s !important;
     
 }
 .paginas li{
@@ -90,6 +90,10 @@ a{
 }
 .redes{
     color: aqua;
+}
+ul{
+    animation: animate__fadeInLeft;
+    animation-duration: 3s !important;
 }
 
 
